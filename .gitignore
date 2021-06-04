@@ -73,3 +73,8 @@ fabric.properties
 
 # Work files of the scripts
 session*
+/.idea/fairmark-scripts.iml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/inspectionProfiles/profiles_settings.xml
+/.idea/vcs.xml
