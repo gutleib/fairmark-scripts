@@ -1,9 +1,9 @@
 #! /bin/bash
 api_url='https://int01.gismt.crpt.tech/api/v3/true-api'
 echo''
-echo 'This script will generate a token for automated ineraction with '$api_url
+echo 'This script will generate a token for automated interaction with '$api_url
 echo ''
-read -p "Enter fingerprint of a certificate to use for auth > " cert_finger
+read -p "Enter fingerprint (SHA-1) of a certificate to use for auth > " cert_finger
 #read -p "Enter password for a certificate use > " cert_password
 echo'' 
 echo ''
