@@ -6,7 +6,7 @@ echo ''
 echo 'List of certificates in system (available through CryptoPro)'
 certmgr -list
 echo ''
-read -p "Enter fingerprint (SHA-1) of a certificate to use for auth > " cert_finger
+read -p "Enter fingerprint (SHA-1) of a certificate to use for auth: " cert_finger
 #read -p "Enter password for a certificate use > " cert_password
 echo'' 
 echo ''
