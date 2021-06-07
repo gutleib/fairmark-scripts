@@ -4,7 +4,7 @@ echo''
 echo 'This script will generate a token for automated interaction with '$api_url
 echo ''
 echo 'List of certificates in system (available through CryptoPro)'
-echo $(certmgr -list |grep -e Issuer -e SHA)
+certmgr -list
 echo ''
 read -p "Enter fingerprint (SHA-1) of a certificate to use for auth > " cert_finger
 #read -p "Enter password for a certificate use > " cert_password
